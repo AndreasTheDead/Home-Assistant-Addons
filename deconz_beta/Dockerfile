@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM build.json
+FROM $BUILD_FROM
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
