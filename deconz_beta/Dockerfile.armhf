@@ -5,7 +5,7 @@ FROM homeassistant/armhf-base-raspbian:buster
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install deCONZ dependencies
-ARG BUILD_ARCH
+ARG BUILD_ARCH=armhf
 RUN \
     set -x \
     && apt-get update \
@@ -33,8 +33,8 @@ RUN \
         wget \
         wmii \
         xfonts-base \
-        xfonts-scalable \
-    && rm -rf /var/lib/apt/lists/* \
+        xfonts-scalable
+RUN	   rm -rf /var/lib/apt/lists/* \
     && if [[ "armhf aarch64" = *"$BUILD_ARCH"* ]]; \
         then \
             apt-get update \
