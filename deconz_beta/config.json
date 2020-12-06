@@ -4,7 +4,7 @@
   "slug": "deconzbeta",
   "description": "Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik",
   "arch": ["amd64", "armhf", "aarch64"],
-  "url": "https://gitlab.com/AndreasTheDead/home-assistant-addons/-/tree/master/deconz",
+  "url": "https://github.com/AndreasTheDead/Home-Assistant-Addons",
   "startup": "services",
   "boot": "auto",
   "init": false,
