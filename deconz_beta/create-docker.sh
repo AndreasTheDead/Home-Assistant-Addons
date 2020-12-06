@@ -1,0 +1,1 @@
+docker run --rm -ti --name hassio-builder --privileged -v /mnt/c/Users/andre/Documents/Home-Assistant-Addons-github/deconz_beta:/data -v /var/run/docker.sock:/var/run/docker.sock:ro homeassistant/amd64-builder -t /data --all --test -i deconz-beta-{arch} -d andreasthedead

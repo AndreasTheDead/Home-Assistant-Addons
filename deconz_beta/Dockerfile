@@ -1,5 +1,5 @@
-ARG BUILD_FROM=aarch64
-FROM homeassistant/aarch64-base-debian:buster
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
