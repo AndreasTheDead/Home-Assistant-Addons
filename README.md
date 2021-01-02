@@ -19,13 +19,6 @@ systems that have installed Home Assistant.
 
 Got questions?
 
-You have several options to get them answered:
-
-- [Dockerhub](https://hub.docker.com/repository/docker/andreasthedead/deconz)
-- The [Home Assistant Discord Chat Server][discord].
-- The Home Assistant [Community Forum][forum].
-- Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
-
 In case you've found a bug, please [open an issue on our GitHub][issue].
 
 ## Developing your own add-ons
