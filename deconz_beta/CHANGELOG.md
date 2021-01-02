@@ -1,4 +1,6 @@
 # Changelog
+## 6.7.0
+- Bump deCONZ to 2.09.00 Beta
 
 ## 6.5.0
 
